@@ -1,0 +1,5 @@
+.vs/
+Mulligan/bin/
+Mulligan/obj/
+packages/
+*.user
