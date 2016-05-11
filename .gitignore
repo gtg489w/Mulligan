@@ -3,3 +3,4 @@ Mulligan/bin/
 Mulligan/obj/
 packages/
 *.user
+Mulligan.Data/obj/
