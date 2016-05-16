@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Mulligan">
+  <DataContextMoniker Name="/MulliganDataContext" />
+  <nestedChildShapes>
+    <classShape Id="25d2b4c5-b620-47fe-a805-8beb48e01e59" absoluteBounds="7.875, 0.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MulliganDataContext/Player" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c9cab0a-2e39-4f31-b8a4-b35eb114b977" absoluteBounds="7.8900000000000006, 1.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3726d4a8-6f3a-43b6-9056-9500e6c3cb42" absoluteBounds="2.875, 5.375, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/MulliganDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="22181958-188e-4956-91a9-72d484099931" absoluteBounds="2.8900000000000006, 5.8350000000000009, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b3de58fa-690b-4630-88c6-62a79e2fe066" absoluteBounds="0.5, 0.625, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/MulliganDataContext/TournamentFamily" />
+      <nestedChildShapes>
+        <elementListCompartment Id="398d5a6e-8ad9-4fd8-8234-4af856268c11" absoluteBounds="0.51500000000000012, 1.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cb144b39-b9dd-4bf8-9d92-200750e3e44b" absoluteBounds="5.375, 0.625, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/MulliganDataContext/TournamentPlayer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eec721c2-4a78-4815-9cdf-0b07384ac5e8" absoluteBounds="5.39, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a6a5f0f-7993-40d6-adef-62ee7ec371ef" absoluteBounds="3, 0.625, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/MulliganDataContext/Tournament" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b0f5444-c85f-4c80-b968-8d6e99831fc7" absoluteBounds="3.015, 1.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.875 : 1.41429768880208); (7.375 : 1.41429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MulliganDataContext/Player/Player_TournamentPlayer" />
+      <nodes>
+        <classShapeMoniker Id="25d2b4c5-b620-47fe-a805-8beb48e01e59" />
+        <classShapeMoniker Id="cb144b39-b9dd-4bf8-9d92-200750e3e44b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5 : 1.51044840494792); (5.375 : 1.51044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MulliganDataContext/Tournament/Tournament_TournamentPlayer" />
+      <nodes>
+        <classShapeMoniker Id="9a6a5f0f-7993-40d6-adef-62ee7ec371ef" />
+        <classShapeMoniker Id="cb144b39-b9dd-4bf8-9d92-200750e3e44b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 1.22199625651042); (3 : 1.22199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MulliganDataContext/TournamentFamily/TournamentFamily_Tournament" />
+      <nodes>
+        <classShapeMoniker Id="b3de58fa-690b-4630-88c6-62a79e2fe066" />
+        <classShapeMoniker Id="9a6a5f0f-7993-40d6-adef-62ee7ec371ef" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="101225df-6b24-4278-a0eb-dfd35f3a03ee" absoluteBounds="3, 3, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MulliganDataContext/PoolUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c40d1bda-ab73-4d94-8074-94e11f5b3893" absoluteBounds="3.0149999999999997, 3.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.9375 : 5.375); (3.9375 : 4.77089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MulliganDataContext/User/User_PoolUser" />
+      <nodes>
+        <classShapeMoniker Id="3726d4a8-6f3a-43b6-9056-9500e6c3cb42" />
+        <classShapeMoniker Id="101225df-6b24-4278-a0eb-dfd35f3a03ee" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c987c3f7-afa7-4fd2-932f-c605c0bb7247" absoluteBounds="0.5, 2.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/MulliganDataContext/Pool" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc028e8a-8ac1-4340-918b-da15a9e19c92" absoluteBounds="0.51500000000000012, 3.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 3.88544840494792); (3 : 3.88544840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MulliganDataContext/Pool/Pool_PoolUser" />
+      <nodes>
+        <classShapeMoniker Id="c987c3f7-afa7-4fd2-932f-c605c0bb7247" />
+        <classShapeMoniker Id="101225df-6b24-4278-a0eb-dfd35f3a03ee" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3 : 2.39589680989583); (2.5 : 2.875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MulliganDataContext/Tournament/Tournament_Pool" />
+      <nodes>
+        <classShapeMoniker Id="9a6a5f0f-7993-40d6-adef-62ee7ec371ef" />
+        <classShapeMoniker Id="c987c3f7-afa7-4fd2-932f-c605c0bb7247" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="122d5348-353a-4227-b3ff-de74b6f447ed" absoluteBounds="5.375, 5.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/MulliganDataContext/PoolEntry" />
+      <nestedChildShapes>
+        <elementListCompartment Id="011fb357-543c-48fd-8084-014276370859" absoluteBounds="5.39, 5.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5 : 4.77089680989583); (5.375 : 5.25)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/MulliganDataContext/PoolUser/PoolUser_PoolEntry" />
+      <nodes>
+        <classShapeMoniker Id="101225df-6b24-4278-a0eb-dfd35f3a03ee" />
+        <classShapeMoniker Id="122d5348-353a-4227-b3ff-de74b6f447ed" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="43e897e4-cf93-475b-ad8e-400556235b0e" absoluteBounds="5.375, 3, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/MulliganDataContext/PoolEntryTournamentPlayer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f913adc5-e015-47c4-b7bb-87c331253529" absoluteBounds="5.39, 3.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.4062525 : 5.25); (6.4062525 : 4.57859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MulliganDataContext/PoolEntry/PoolEntry_PoolEntryTournamentPlayer" />
+      <nodes>
+        <classShapeMoniker Id="122d5348-353a-4227-b3ff-de74b6f447ed" />
+        <classShapeMoniker Id="43e897e4-cf93-475b-ad8e-400556235b0e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.375 : 2.5881982421875); (6.375 : 3)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MulliganDataContext/TournamentPlayer/TournamentPlayer_PoolEntryTournamentPlayer" />
+      <nodes>
+        <classShapeMoniker Id="cb144b39-b9dd-4bf8-9d92-200750e3e44b" />
+        <classShapeMoniker Id="43e897e4-cf93-475b-ad8e-400556235b0e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

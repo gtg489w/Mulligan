@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mulligan", "Mulligan\Mulligan.csproj", "{BFE6EE94-F466-4711-92A1-1D9A61D2EADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mulligan.Data", "Mulligan.Data\Mulligan.Data.csproj", "{BE46303F-ABE9-4FF5-B41D-862BF101A1F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mulligan.Data", "Mulligan.Data\Mulligan.Data.csproj", "{C012DA0B-1B03-4130-8EF6-2C3802668D3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{BFE6EE94-F466-4711-92A1-1D9A61D2EADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFE6EE94-F466-4711-92A1-1D9A61D2EADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFE6EE94-F466-4711-92A1-1D9A61D2EADA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BE46303F-ABE9-4FF5-B41D-862BF101A1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE46303F-ABE9-4FF5-B41D-862BF101A1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE46303F-ABE9-4FF5-B41D-862BF101A1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE46303F-ABE9-4FF5-B41D-862BF101A1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C012DA0B-1B03-4130-8EF6-2C3802668D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C012DA0B-1B03-4130-8EF6-2C3802668D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C012DA0B-1B03-4130-8EF6-2C3802668D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C012DA0B-1B03-4130-8EF6-2C3802668D3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
